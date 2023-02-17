@@ -8,7 +8,7 @@
 // const component = new Component()
 // component.render()
 
-const fs = require("fs");
+// const fs = require("fs");
 // console.log(fs);
 
 // fs.readFile('./test.txt', {encoding: 'utf-8'}, (err,data) => {
@@ -38,3 +38,8 @@ const fs = require("fs");
 //   .catch((error) => {
 //     console.log(error);
 //   });
+
+
+const _ = require('lodash')
+
+console.log(_.random(3,8))
