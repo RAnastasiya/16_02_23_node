@@ -28,13 +28,13 @@ const fs = require("fs");
 //   });
 
 
-fs.promises
-  .readFile("./test.txt", { encoding: "utf-8" })
-  .then((data) => {
-    return fs.promises.writeFile("test2.txt", data + "\nLOREM!!!", {
-      encoding: "utf-8",
-    });
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+// fs.promises
+//   .readFile("./test.txt", { encoding: "utf-8" })
+//   .then((data) => {
+//     return fs.promises.writeFile("test2.txt", data + "\nLOREM!!!", {
+//       encoding: "utf-8",
+//     });
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });
